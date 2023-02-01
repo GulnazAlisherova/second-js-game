@@ -44,7 +44,7 @@ setInterval(function () {
     var blockLastTop = parseInt(window.getComputedStyle(blockLast).getPropertyValue("top"));
     var holeLastTop = parseInt(window.getComputedStyle(holeLast).getPropertyValue("top"));
   }
-  if (blockLastTop < 400 ||counter==0) {
+  if (blockLastTop < 400 || counter == 0) {
     var block = document.createElement("div");
     var hole = document.createElement("div");
     block.setAttribute("class", "block");
@@ -61,7 +61,7 @@ setInterval(function () {
     currentBlocks.push(counter);
     counter++;
   }
-  for(var i =0; i< currentBlocks.length; i++){
+  for (var i = 0; i < currentBlocks.length; i++) {
     let current = currentBlocks[i];
     let ihole = document.getElementById("hole " + current);
   }
