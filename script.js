@@ -73,5 +73,7 @@ setInterval(function () {
       iblock.remove();
       ihole.remove();
     }
+    if(iblockTop-20<characterTop && iblockTop>characterTop){
+       
   }
 }, 1);
