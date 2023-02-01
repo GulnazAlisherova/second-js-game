@@ -20,3 +20,6 @@ document.addEventListener("keydown", event => {
     interval = setInterval(moveRight, 1)
   }
 });
+document.addEventListener("keyup", event=>{
+  clearInterval(interval);
+})
