@@ -71,6 +71,7 @@ setInterval(function () {
     if(iblock < -20){
       currentBlocks.shift();
       iblock.remove();
+      ihole.remove();
     }
   }
 }, 1);
