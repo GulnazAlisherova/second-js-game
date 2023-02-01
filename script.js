@@ -68,5 +68,8 @@ setInterval(function () {
     let iblockTop = parseFloat(window.getComputedStyle(iblock).getPropertyValue("top"));
     iblock.style.top = iblockTop - 0.5 + "px";
     ihole.style.top = iblockTop - 0.5 + "px";
+    if(iblock < -20){
+      currentBlocks.shift();
+    }
   }
 }, 1);
