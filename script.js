@@ -58,6 +58,7 @@ setInterval(function () {
 
     game.appendChild(block);
     game.appendChild(hole);
+    currentBlocks.push(counter);
     counter++;
   }
 }, 1);
