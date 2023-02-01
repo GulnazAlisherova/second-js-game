@@ -41,5 +41,7 @@ block.setAttribute("class", "block");
 hole.setAttribute("class", "hole");
 block.setAttribute("id", "block");
 hole.setAttribute("id", "hole");
+var random = Math.random();
+
 game.appendChild(block);
 game.appendChild(hole);
