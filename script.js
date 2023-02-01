@@ -80,8 +80,12 @@ setInterval(function () {
       }
     }
   }
-  if(drop==0){
-    if(characterTop < 480){
-        character.style.top = characterTop + 2 + "px";
+  if (drop == 0) {
+    if (characterTop < 480) {
+      character.style.top = characterTop + 2 + "px";
     }
+  } 
+  else {
+    character.style.top = characterTop - 0.5 + "px";
+  }
 }, 1);
