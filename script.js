@@ -33,3 +33,5 @@ document.addEventListener("keyup", event => {
   clearInterval(interval);
   both = 0;
 })
+
+var block = document.createElement("div")
