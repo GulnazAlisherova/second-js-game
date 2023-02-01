@@ -63,6 +63,7 @@ setInterval(function () {
   }
   for (var i = 0; i < currentBlocks.length; i++) {
     let current = currentBlocks[i];
+    let iblock = document.getElementById("hole " + current);
     let ihole = document.getElementById("hole " + current);
   }
 }, 1);
