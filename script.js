@@ -42,7 +42,7 @@ setInterval(function () {
   if (counter > 0) {
     var blockLastTop = parseInt(window.getComputedStyle(blockLast).getPropertyValue("top"));
     var holeLastTop = parseInt(window.getComputedStyle(holeLast).getPropertyValue("top"));
-
+  }
     var block = document.createElement("div");
     var hole = document.createElement("div");
     block.setAttribute("class", "block");
