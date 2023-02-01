@@ -61,4 +61,5 @@ setInterval(function () {
     currentBlocks.push(counter);
     counter++;
   }
+  for(var i =0; i< currentBlocks.length)
 }, 1);
