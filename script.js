@@ -1,5 +1,6 @@
 var character = document.getElementById("character");
 var interval;
+var both = 0;
 
 function moveLeft() {
   var left =
