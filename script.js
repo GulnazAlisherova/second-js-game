@@ -1,4 +1,5 @@
 var character = document.getElementById("character");
+var interval;
 
 function moveLeft() {
   var left =
@@ -12,6 +13,9 @@ function moveRight() {
 }
 
 document.addEventListener("keydown", event =>{
+  if(event.key==="ArrowLeft"){
+
+  }
   if(event.key==="ArrowLeft"){
     
   }
