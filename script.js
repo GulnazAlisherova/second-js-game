@@ -39,7 +39,9 @@ document.addEventListener("keyup", event => {
 setInterval(function () {
   var blockLast  = document.getElementById("block" + (counter-1));
   var holeLast  = document.getElementById("block" + (counter-1));
-  
+  var blockLastTop = 
+  parseInt(window.getComputedStyle(blockLast).getPropertyValue("top"));
+
   var block = document.createElement("div");
   var hole = document.createElement("div");
   block.setAttribute("class", "block");
