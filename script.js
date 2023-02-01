@@ -61,5 +61,7 @@ setInterval(function () {
     currentBlocks.push(counter);
     counter++;
   }
-  for(var i =0; i< currentBlocks.length)
+  for(var i =0; i< currentBlocks.length; i++){
+    let current = currentBlocks[i];
+  }
 }, 1);
