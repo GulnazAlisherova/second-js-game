@@ -68,12 +68,16 @@ setInterval(function () {
     let iblockTop = parseFloat(window.getComputedStyle(iblock).getPropertyValue("top"));
     iblock.style.top = iblockTop - 0.5 + "px";
     ihole.style.top = iblockTop - 0.5 + "px";
-    if(iblock < -20){
+    if (iblock < -20) {
       currentBlocks.shift();
       iblock.remove();
       ihole.remove();
     }
-    if(iblockTop-20<characterTop && iblockTop>characterTop){
-       
+    if (iblockTop - 20 < characterTop && iblockTop > characterTop) {
+      drop++;
+      if (iholeLeft <= characterLeft && iholeLeft + 20 >= characterLeft) {
+        drop = 0;
+      }
+    }
   }
 }, 1);
