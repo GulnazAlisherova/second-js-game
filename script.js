@@ -1,4 +1,5 @@
 var character = document.getElementById("character");
+var game = document.getElementById("game");
 var interval;
 var both = 0;
 
