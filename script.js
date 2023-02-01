@@ -49,6 +49,7 @@ setInterval(function () {
     hole.setAttribute("class", "hole");
     block.setAttribute("id", "block" + counter);
     hole.setAttribute("id", "hole");
+    block.style.top= blockLastTop + 100 + "px";
     var random = Math.floor(Math.random() * 360);
     hole.style.left = random + "px";
 
