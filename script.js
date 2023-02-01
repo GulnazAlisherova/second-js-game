@@ -13,10 +13,10 @@ function moveLeft() {
 function moveRight() {
   var left =
     parseInt(window.getComputedStyle(character).getPropertyValue("left"));
-    if(left<380){
+  if (left < 380) {
 
-      character.style.left = left + 2 + "px";
-    }
+    character.style.left = left + 2 + "px";
+  }
 }
 
 document.addEventListener("keydown", event => {
@@ -41,3 +41,5 @@ block.setAttribute("class", "block");
 hole.setAttribute("class", "hole");
 block.setAttribute("id", "block");
 hole.setAttribute("id", "hole");
+game.appendChild(block);
+game.appendChild(hole);
