@@ -65,5 +65,6 @@ setInterval(function () {
     let current = currentBlocks[i];
     let iblock = document.getElementById("hole " + current);
     let ihole = document.getElementById("hole " + current);
+    let iblockTop = parseInt(window.getComputedStyle(blockLast).getPropertyValue("top"));
   }
 }, 1);
