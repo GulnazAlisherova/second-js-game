@@ -36,4 +36,7 @@ document.addEventListener("keyup", event => {
 
 var block = document.createElement("div");
 var hole = document.createElement("div");
-block.setAttribute("class", "block")
+block.setAttribute("class", "block");
+hole.setAttribute("class", "hole");
+block.setAttribute("id", "block");
+hole.setAttribute("id", "hole");
