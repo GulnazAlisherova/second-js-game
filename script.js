@@ -34,4 +34,5 @@ document.addEventListener("keyup", event => {
   both = 0;
 })
 
-var block = document.createElement("div")
+var block = document.createElement("div");
+var hole = document.createElement("div");
