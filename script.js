@@ -3,6 +3,7 @@ var game = document.getElementById("game");
 var interval;
 var both = 0;
 var counter = 0;
+var currentBlocks = [];
 
 function moveLeft() {
   var left =
